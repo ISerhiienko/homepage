@@ -260,3 +260,34 @@ body {
 .additional-info__languages-item {
   color: var(--secondary-text-color);
 }
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-right: 50px;
+}
+
+.logo__img {
+  width: 240px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.about__name,
+.about__position {
+  color: var(--primary-text-color);
+}
+
+.about__position {
+  margin-bottom: 10px;
+}
+
+.about__description {
+  color: var(--secondary-text-color);
+}
