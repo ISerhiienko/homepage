@@ -265,6 +265,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 3px solid var(--border-color);
 }
 
 .logo {
@@ -290,4 +293,26 @@ body {
 
 .about__description {
   color: var(--secondary-text-color);
+}
+
+.education {
+  padding-bottom: 30px;
+}
+
+.title {
+  color: var(--secondary-text-color);
+  margin-bottom: 15px;
+}
+
+.education__period {
+  color: var(--durability-text-color);
+}
+
+.work {
+  margin-bottom: 30px;
+}
+
+.work__list {
+  margin-top: 10px;
+  padding-left: 20px;
 }
