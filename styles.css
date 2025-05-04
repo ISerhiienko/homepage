@@ -68,6 +68,10 @@ body {
 }
 
 /* Contact info */
+.contact_info_container {
+  margin-bottom: 20px;
+}
+
 .contact-info__header,
 .contact-info__sub-header {
   text-align: center;
