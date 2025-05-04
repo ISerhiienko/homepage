@@ -68,6 +68,11 @@ body {
 }
 
 /* Contact info */
+.contact_info_container {
+  margin-bottom: 20px;
+  align-items: center;
+}
+
 .contact-info__header,
 .contact-info__sub-header {
   text-align: center;
@@ -82,7 +87,6 @@ body {
 
 .contact-info__sub-header {
   color: var(--secondary-text-color);
-  margin-bottom: 30px;
 }
 
 .contact-info__block {
@@ -111,15 +115,12 @@ body {
   width: 20px;
   display: flex;
   justify-content: center;
-}
-
-.contact-info__item-icon path {
-  fill: var(--icon-color);
+  align-items: center;
 }
 
 .contact-info__item-icon {
-  height: 1.1428rem;
-  vertical-align: text-bottom;
+  font-size: 20px;
+  color: var(--icon-color);
 }
 
 .contact-info__avatar {
