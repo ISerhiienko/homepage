@@ -10,11 +10,19 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="dark-theme">
+  <body>
     <main>
       <div class="resume">
         <div class="container">
           <div class="resume__block">
+            <button
+              id="theme-toggle"
+              class="theme-button"
+              aria-label="Toggle theme"
+              title="Toggle theme"
+            >
+              <i class="fas fa-moon theme-toggle__icon"></i>
+            </button>
             <h1 class="contact-info__header">Ihor Serhiienko</h1>
             <h3 class="contact-info__sub-header">Full-Stack Developer</h3>
           </div>
@@ -198,5 +206,7 @@
         </div>
       </div>
     </main>
+
+    <script src="script.js" defer></script>
   </body>
 </html>
